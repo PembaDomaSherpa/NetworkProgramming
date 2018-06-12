@@ -7,6 +7,7 @@ public class InetAddress {
         ip = java.net.InetAddress.getByName("www.sharesansar.com");
         System.out.println("Hostname " + ip.getHostName());
         System.out.println("IP Address " + ip.getHostAddress());
+
     }
 
 }
